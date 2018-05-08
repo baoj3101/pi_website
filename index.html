@@ -7,12 +7,13 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body id=”background” onload="myMap()">
+<body id=”background”>
 
 <div class="navbar">
   <a href="team.html">Team Members</a>
   <a href="learn.html">Things Learned</a>
   <a href="linux.html">Linux Cheatsheet</a>
+  <a target="_blank" href="http://localhost/cgi-bin/rpi.cgi">RPI Status</a>
   </div>
 
 <div class="header">
@@ -24,19 +25,8 @@
 <br>
 
 <div style="background-color:white;align:center;width:600px;height:400px;margin:auto;">
+<iframe width="600" height="400" src="https://www.youtube.com/embed/_cviTxswW8c"></iframe>
 </div>
-
-<script>
-function myMap() {
-  var mapProp= {
-    center:new google.maps.LatLng(32.9590802,-117.191622),
-    zoom:16,
-  };
-  var map=new google.maps.Map(document.getElementById("myMap"),mapProp);
-}
-</script>
-
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
   
 </body>
 </html>
